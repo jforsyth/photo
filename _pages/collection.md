@@ -1,23 +1,18 @@
 ---
-layout: about
-title: Home
-permalink: /
-subtitle: A Collection of Roman Coins
-
-selected_papers: false
-social: true
-
-announcements:
-  enabled: false
-
-latest_posts:
-  enabled: false
+layout: page
+title: Collection
+permalink: /collection/
+description: Browse the complete collection of Jason's Ancient Coins
+nav: true
+nav_order: 2
 ---
 
-Some descriptive text here. 
+<div class="showcase-intro">
+  <p></p>
+</div>
 
 <div class="showcase-gallery">
-  {% assign featured_coins = site.coins | where: "featured", true | reverse | slice: 0, 6 %}
+  {% assign featured_coins = site.coins | where: "featured", true %}
   {% for coin in featured_coins %}
     <div class="showcase-item">
       <a href="{{ coin.url | relative_url }}">
@@ -35,11 +30,15 @@ Some descriptive text here.
   {% endfor %}
 </div>
 
-<div style="text-align: center; margin-top: 3rem;">
-  <a href="{{ '/collection/' | relative_url }}" class="btn" style="display: inline-block; padding: 0.75rem 2rem; background: var(--global-theme-color); color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">Browse the Collection</a>
-</div>
-
 <style>
+.showcase-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: var(--global-text-color-light);
+}
+
 .showcase-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
