@@ -9,8 +9,7 @@ last_name:
 contact_note: 
 description:
 
-footer_text: >
-  All photographs and descriptions are original.
+footer_text: 
 keywords:  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🪙 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
