@@ -52,8 +52,8 @@ nav_order: 2
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
+  background: #000000;
+  border: none;
   padding: 1rem;
 }
 
