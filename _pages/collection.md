@@ -52,7 +52,8 @@ nav_order: 2
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
-  background: #000000;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
   padding: 1rem;
 }
 
@@ -73,7 +74,7 @@ nav_order: 2
   left: 0;
   right: 0;
   background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-  color: white;
+  color: #ffffff;
   padding: 2rem 1rem 1rem;
   transform: translateY(100%);
   transition: transform 0.3s ease;
@@ -86,12 +87,14 @@ nav_order: 2
 .showcase-overlay h3 {
   margin: 0 0 0.5rem;
   font-size: 1.2rem;
+  color: #ffffff !important;
 }
 
 .showcase-overlay p {
   margin: 0;
   font-size: 0.9rem;
   opacity: 0.9;
+  color: #ffffff !important;
 }
 
 .showcase-item a {
