@@ -19,7 +19,7 @@ featured: true
 ---
 > *In the middle of the forum of Messana a Roman citizen, O judges, was beaten with rods; while in the mean time no groan was heard, no other expression was heard from that wretched man, amid all his pain, and between the sound of the blows, except these words, "Civis Romanus Sum"*
 > 
-> — Cicero, *In Verrem* 162
+> — <a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0012%3Atext%3DVer.%3Aactio%3D2%3Abook%3D5%3Asection%3D162" target="_blank">Cicero, In Verrem 162</a>
 
 "Civis Romanus Sum" or "I am a Roman Citizen" was a declaration of rights and protections throughout the ancient world. Traveling abroad, a Roman citizen could be certain his status afforded deference due to fear of Rome's retribution. Against his own magistrates, he was shielded from their arbitrary power of command (*imperium*) and punishment (*coercitio*) through an appeal (*provocatio*) to the People's Assembly. Any violation of these rights was considered a "wicked act" and was so egregious that Cicero focused his prosecution, and eventual conviction, of the corrupt Sicilian governor Verres for his crime of flogging a Roman citizen.
 
