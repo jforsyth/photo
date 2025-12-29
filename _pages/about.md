@@ -20,10 +20,10 @@ This collection was originally inspired by Suetonius' Twelve Caesars, and comple
 
 Our work is inspired by several sources. We strive to provide accessible and intelligent historical writing following [Garrett Ryan's Toldinstone](https://toldinstone.com/) and [Gareth Harney's Moneta](https://www.harneycoins.com/), while grounding everything in the latest scholarship and led by primary sources like [Liv Yarrow's Adventures in My Head](https://livyarrow.org/). The narrative format with extensive footnotes follows [Bret Devereaux's A Collection of Unmitigated Pedantry](https://acoup.blog/). Insights into the modern coin trade are from [Aaron Berk's Ancient Coin Podcast](https://www.youtube.com/playlist?list=PLi8uAYychtLcENn1Xo4NrBTN9m1GC8tDu).
 
-Below are the most recently added coins to this blog. The full set is available on the [Collection](collection/) page.
+Below are some well-documented coins within the collection. The full set is available on the [Collection](collection/) page.
 
 <div class="showcase-gallery">
-  {% assign featured_coins = site.coins | where: "featured", true | reverse | slice: 0, 6 %}
+  {% assign featured_coins = site.coins | where: "featured", true | reverse %}
   {% for coin in featured_coins %}
     <div class="showcase-item">
       <a href="{{ coin.url | relative_url }}">
