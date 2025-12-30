@@ -10,9 +10,9 @@ reference: '<a href="https://numismatics.org/crro/id/rrc-451.1" target="_blank">
 metal: Silver
 weight: "3.62g"
 grade: "VF"
-image_obverse: coins/gaius_pansa_and_decimus_brutus_48_bce_rome-obv.png
-image_reverse: coins/gaius_pansa_and_decimus_brutus_48_bce_rome-rev.png
-image_aligned: coins/gaius_pansa_and_decimus_brutus_48_bce_rome-aligned.png
+image_obverse: coins/pansa_brutus/gaius_pansa_and_decimus_brutus_48_bce_rome-obv.png
+image_reverse: coins/pansa_brutus/gaius_pansa_and_decimus_brutus_48_bce_rome-rev.png
+image_aligned: coins/pansa_brutus/gaius_pansa_and_decimus_brutus_48_bce_rome-aligned.png
 obverse_description: "Mask of bearded Pan right; C PANSA below"
 reverse_description: "Two hands clasped and holding a winged caduceus; ALBINVS BRVTI F around"
 featured: true
